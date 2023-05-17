@@ -1,0 +1,51 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: block;
+    width: 400px;
+	height: 500px;
+	position: absolute;
+    top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+    padding: 70px 50px 20px 120px;
+    border: solid;
+    border-color: lightblue;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightblue ;
+}
+
+.fname, .lname ,.uname, .email, .password ,.age,.submit{
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-style: ridge;
+    border-radius: 4px;
+    border-color: rgba(153, 144, 134, 0.605);
+
+
+}
+.submit{
+    margin-top: 10px;
+    margin-left: 4px;
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+    background-color: bisque;
+}
+.submit:hover{
+    background-color: blanchedalmond;
+    cursor:pointer;
+}
+.title{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    margin-left: -70px;
+    color:rgb(45, 45, 45);
+    font-weight: 100;
+}
